@@ -1,4 +1,4 @@
-function findContiguos(nums) {
+function findContiguous(nums) {
 
     linelen=length($0)
     start = 1
@@ -63,7 +63,7 @@ BEGIN {
 {
     #start=0
     #print $0
-    findContiguos(numbers)
+    findContiguous(numbers)
     #print $0
     #print "----------------------------------"
 
